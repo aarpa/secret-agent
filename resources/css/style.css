@@ -1,0 +1,122 @@
+html {
+  font-size: 18px;
+  color: white;
+  font-family: Helvetica;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+header {
+  background-color: black;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+header span {
+  font-size: 1rem;
+  margin: 0.66rem 0;
+}
+
+.banner {
+  background-image: url("../images/banner.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.announcement {
+  background-color: black;
+  width: 20rem;
+  position: relative;
+  top: 9rem;
+  padding: 2rem 3rem;
+}
+
+.announcement h1 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.announcement h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav {
+  background-color: firebrick;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 0;
+}
+
+.thumbnail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.thumbnail div {
+  width: 30%;
+  border: 4px solid black;
+  text-align: center;
+}
+
+.thumbnail img {
+  padding: 2rem 0;
+  width: 50%;
+  height: auto;
+}
+
+.thumbnail h3 {
+  padding: 0.5rem 0;
+  background-color: black;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.contact div {
+  width: 35%;
+}
+
+.contact h3 {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: black;
+}
+
+.contact p {
+  color: black;
+}
+
+footer {
+  background-color: black;
+  padding: 2.5rem 0;
+}
