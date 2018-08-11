@@ -65,6 +65,11 @@ nav .container {
   justify-content: space-between;
 }
 
+nav .mobile {
+  display: flex;
+  justify-content: center;
+}
+
 nav a {
   color: white;
   text-decoration: none;
@@ -119,4 +124,30 @@ nav a {
 footer {
   background-color: black;
   padding: 2.5rem 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  nav .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  nav .container {
+    display: none;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 0;
+  }
+
+  .thumbnail div {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
 }
